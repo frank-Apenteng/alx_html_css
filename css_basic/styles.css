@@ -1,0 +1,69 @@
+/* Make <body> a flex container with a column direction */
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    color:#333;
+    margin: 0;
+    padding: 0;
+}
+/* header styling */
+header{
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+}
+/* logo styling */
+.logo{
+    font-size: 2em;
+    margin-right: 10px;
+}
+/* Make <main> a flex container with a row direction */
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto; /* Allow <main> to take automatic height and width */
+}
+
+/* Set <article> to take 2/3 of the width and allow scrolling */
+article {
+    flex: 2; /* Takes up 2 boxes */
+    overflow-y: auto; /* Enable vertical scrolling */
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba( 0, 0, 0.01);
+}
+/* link styling */
+a{
+    color: #007BFF;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+/* list items styling */
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav li{
+    display: inline;
+    margin-right: 15px;
+}
+/* Set <aside> to take 1/3 of the width and allow scrolling */
+aside {
+    flex: 1; /* Takes up 1 box */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+/* Optional: Style for <header> and <footer> for better appearance */
+ /* Light gray background */
+     /* Add some padding */
+     /* Center the text */
+
+
+
+/* Optional: Style for <article> and <aside> */
+ /* Add some padding */
