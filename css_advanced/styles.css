@@ -1,0 +1,345 @@
+
+
+body{
+    margin: 0;
+}
+
+header {
+    background-image: url(images/Object.png);
+    margin: 0;
+}
+#logo{
+    padding-top: 30px;
+    padding-left: 150px;
+}
+nav{
+    float: right;
+    padding-top: 30px;
+    padding-right: 150px;
+    word-spacing: 40px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    
+}
+h1{
+    color: white;
+    font-size: 120px;
+    text-align: center;
+    letter-spacing: 5px;
+    padding-top: 80px;
+}
+  ul{
+    display: flex;
+    text-align: center;
+}
+ ul li{
+    text-decoration: none;
+}
+button{
+    color: white;
+    background-color: blueviolet;
+    border-radius: 20px;
+    height: 50px;;
+    width: 150px;
+    display: block;
+    margin: auto;
+    position: relative;
+    bottom: 50px;
+    
+}
+#tag{
+    color: white;
+    text-align: center;
+    word-spacing: 50px;
+    position: relative;
+    bottom: 70px;
+}
+footer{
+    background-color:black;
+    position: relative;
+    top: 30px;
+    bottom: 700px;
+
+}
+footer p{
+    color: rgb(142, 135, 135);
+    text-align: center;
+    position: relative;
+    padding: 10px;
+}
+
+
+#says{
+    position: relative;
+    text-align: center;
+}
+#prof{
+    display: flex;
+    position: relative;
+    top: 100px;
+    justify-content: center;
+    color: white;  
+}
+
+#p1{
+    position: relative;
+    right: 70px;
+    
+}
+#p2{
+    position: relative;
+    right: 30px;
+    
+}
+#p3{
+    position: relative;
+    left: 30px;
+    
+}
+#p4{
+    position: relative;
+    left: 70px;
+    
+}
+#section1{
+   display: flex;
+   position: relative;
+   top:150px ;
+   bottom: 150px;
+   margin: 0;
+   color: white;
+   background-color: blueviolet;
+   justify-content: center;
+   padding: 70px;
+}
+#section1 img{
+    position: relative;
+    right: 60px;
+}
+#section2 h3{
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+}
+
+#section2{
+    position: relative;
+    top: 130px;
+    padding: 100px;
+    justify-content: center;
+    
+}
+#section2-1{
+    position: relative; 
+    left: 50px;
+}
+#section2-2{
+    position: relative; 
+    left: 80px;
+}
+#section2-3{
+    position: relative;
+    left: 120px; 
+}
+#section2-4{
+    position: relative; 
+    left: 150px;
+}
+
+#play {
+    position: relative;
+    bottom: 100px;
+
+}
+#play1{
+    position: relative;
+    left: 150px;
+}
+#play2{
+    position: relative;
+    left: 350px;
+}
+#play3{
+    position: relative;
+    left: 600px;
+}
+#play4{
+    position: relative;
+    left: 800px;
+}
+#list{
+    display: flex;
+}
+#list1{
+    position: relative;
+    left: 70px;
+    bottom: 50px;
+}
+#list2{
+    position: relative;
+    left: 120px;
+    bottom: 50px;
+}
+#list3{
+    position: relative;
+    left: 190px;
+    bottom: 50px;
+}
+#list4{
+    position: relative;
+    left: 250px;
+    bottom: 50px;
+}
+#phillip{
+    display: flex;
+    color: blueviolet;
+    justify-content: center;
+}
+#phillip1{
+   position: relative;
+   right: 280px;
+
+}
+#phillip2{
+    position: relative;
+    right: 140px;
+}
+#phillip3{
+    position: relative;
+    left: 40px;
+}
+#phillip4{
+    position: relative;
+    left: 200px;
+}
+
+#rating{
+    display: flex;
+    justify-content: center;
+    top: 200px;
+}
+#rating1{
+    position: relative;
+   right: 340px; 
+}
+#rating2{
+    position: relative;
+   right: 170px; 
+}
+#rating3{
+    position: relative;
+   left: 50px; 
+}
+#rating4{
+    position: relative;
+   left: 240px; 
+}
+#section3{
+    background-color: rgb(26, 28, 37);
+    position: relative;
+    top: 150px;
+    padding: 200px;
+    justify-content: center;
+}
+#section3 h3{
+    text-align: center;
+    position: relative;
+    bottom: 150px;
+    color: #dad5d5;
+}
+#smile{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 100px;
+}
+#smile1{
+    position: relative;
+    right: 400px;
+}
+#smile2{
+    position: relative;
+    right: 140px;
+}
+#smile3{
+    position: relative;
+    left: 140px;
+}
+#smile4{
+    position: relative;
+    left: 400px;
+}
+#lorem{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 50px;
+}
+#lorem1{
+    position: relative;
+    right: 350px;
+    color: #FFFFFF;
+}
+#lorem2{
+    position: relative; 
+    right: 120px;
+    color: #FFFFFF;
+}
+#lorem3{
+    position: relative;
+    left: 120px;
+    color: #FFFFFF;
+}
+#lorem4{
+    position: relative;
+   left: 350px;
+   color: #FFFFFF;
+}
+#paragraph{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 40px;
+}
+#paragraph1{
+    position: relative;
+    right: 200px;
+    color: #dad5d5;
+}
+#paragraph2{
+    position: relative;
+    right: 50px;
+    color: #dad5d5;
+}
+#paragraph3{
+    position: relative;
+    left: 90px;
+    color: #dad5d5;
+}
+#paragraph4{
+    position: relative;
+    left: 200px;
+    color: #dad5d5;
+}
+
+#p0{
+    display: grid;
+    position: relative;
+    top: 220px;
+    left: 900px;
+}
+
+#p5{
+    display: grid;
+    position: relative;
+    bottom: 238px;
+    left:300px ;
+}
+#section4 h3{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 150px;
+}
