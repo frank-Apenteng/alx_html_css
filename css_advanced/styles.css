@@ -10,12 +10,12 @@ header {
 }
 #logo{
     padding-top: 30px;
-    padding-left: 150px;
+    padding-left: 100px;
 }
 nav{
     float: right;
     padding-top: 30px;
-    padding-right: 150px;
+    padding-right: 100px;
     word-spacing: 40px;
 }
 nav a{
